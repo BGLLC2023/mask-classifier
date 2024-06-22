@@ -1,0 +1,26 @@
+.header{
+  margin-top: 30px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  color: white;
+  text-align: center;
+
+  background-color:  black;
+  height:55px;
+  width: 720px;
+  border-radius: 15px;
+
+  .join-button{
+    background-color: rgb(173, 143, 244);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+  }
+}
