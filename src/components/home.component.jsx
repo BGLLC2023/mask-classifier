@@ -12,14 +12,14 @@ function HomePage(){
       <div className="header-div">
         <Header/>
       </div>
-      <div>
-        <div className="content">
+      <div className="content">
+        
           <New l1='N' l2='E' l3='W' project='Mask Classifier'/>
           <H1/>
-        </div>
-        <div>
+      
+       
           <Features/>
-        </div>
+        
       </div>
       
      

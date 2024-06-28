@@ -1,16 +1,100 @@
 
+
 .features{
-  
-  background-color: rgb(255, 255, 255);
+  margin-bottom: -100px;
+  background-color: rgb(193, 69, 69);
   margin-top: 235px;
   width: 1450px;
   height: 1000px;
-  border-top-left-radius: 23px;  /* Round top-left corner */
-  border-top-right-radius:23px;
+  border-top-left-radius: 37px;  /* Round top-left corner */
+  border-top-right-radius:37px;
   z-index: 2;
   position: relative;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  //grid-template-rows: 1fr;
   
+  justify-content: center;
+  //align-items: center;
+  //flex-wrap: nowrap;
+  gap: 30px;
+ 
+  //justify-items: center;
+  .side-features{
+    margin-top: 200px;
+    background-color: rgb(253, 253, 253);
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    .tall{
+      //margin-top: 0px;
+      background-color: rgb(0, 0, 0);
+      width: 300px;
+      height: 350px;
+      border-radius: 15px;
+    }
+    .short{
+      background-color: rgb(0, 0, 0);
+      width: 300px;
+      height: 250px;
+      border-radius: 15px;
+      
+    }
+
+
+  }
+  .center-features{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+     .top-center{
+      width: 500px;
+      height: 160px;
+      background-color: rgb(255, 255, 255);
+      padding: 0px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .left-top{
+        background-color: black;
+        height: 160px;
+        width: 250px;
+        border-radius: 15px;
+      }
+      .right-top{
+        background-color: black;
+        height: 160px;
+        width: 250px;
+        border-radius: 15px;
+      }
+     
+     }
+     
+  
+    .middle-middle-feature{
+      background-color: black;
+      width: 500px;
+      height: 265px;
+      border-radius: 15px;
+      
+    }
+    .bottom-middle-feature{
+      background-color: black;
+      width: 500px;
+      height: 160px;
+      border-radius: 15px;
+      
+    }
+
+
+  }
   
 
 }

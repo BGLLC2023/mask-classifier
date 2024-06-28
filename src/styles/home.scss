@@ -55,6 +55,8 @@
   grid-template-rows: 1fr 1fr 1fr; /* Divide main-div into three rows */
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
+  justify-items: center;
+  
 
   .header-div {
     display: grid;
